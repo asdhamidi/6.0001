@@ -16,4 +16,4 @@ def get_permutations(sequence):
 if __name__ == '__main__':
     example_input = input("Enter the string : ")
     print('Input:', example_input)
-    print('Possible permutations:', sorted(get_permutations(example_input)))
+    print('Possible permutations:', sorted(set(get_permutations(example_input))))
